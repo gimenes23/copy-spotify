@@ -1,0 +1,414 @@
+/* resete css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1170px;
+}
+
+.wrapper-2 {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+}
+
+
+/* ediçao do cabeçalho logo */
+
+#cabeçalho-logo {
+    padding: 0px 15px;
+    background-color: black;
+}
+
+
+/* teste para imagem logo spotify */
+
+#teste {
+    width: 132px;
+    height: 42;
+}
+
+#teste>img {
+    width: 100%;
+}
+
+
+/* ediçao de links  */
+
+
+/* hover cabeçalho link */
+
+li>a:hover {
+    color: #1ed760;
+}
+
+
+/* todo link direita  */
+
+.link-dir {
+    color: #d9dadc;
+}
+
+li>a {
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 28px 17px;
+}
+
+#linha {
+    margin: 32px 17px;
+    background-color: #fff;
+    display: inline-block;
+    height: 16px;
+    width: 1px;
+}
+
+
+/* ediçao conteudo inicial */
+
+#sessao-preço {
+    background-color: #c3f0c9;
+}
+
+#conteudo-inicial {
+    padding: 72px 0px 40px;
+}
+
+#conteudo-inicial>h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#conteudo-inicial>p {
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+#botao {
+    margin-top: 62px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+#botao>a {
+    font-size: 14px;
+    border-radius: 500px;
+    text-decoration: none;
+    padding: 14px 32px;
+}
+
+#botao>.começar {
+    padding: 16px 32px;
+    color: #fff;
+    background-color: black;
+    margin-right: 8px;
+}
+
+#botao>.planos {
+    border-style: solid;
+    color: black;
+}
+
+#botao:hover {
+    opacity: 0.7;
+    transition: 500ms;
+}
+
+.termos {
+    max-width: 630px;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 0px 0px 12px;
+    margin-top: 50px;
+}
+
+.termos>p>a {
+    color: inherit;
+}
+
+
+/* sessao do porque se tornar premium */
+
+#sessao-pq {
+    padding: 75px 15px;
+}
+
+.lista-pq {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pagina-pq>h2 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+
+.imagem-pq>img {
+    width: 142px;
+    height: 142px;
+    margin: 70px 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+.conteudo-pq {
+    font-family: sans-serif;
+    width: 90%;
+    margin: 16px 0px;
+}
+
+.conteudo-pq>h3 {
+    max-width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.conteudo-pq>p {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* sessao de planos pagos */
+
+#planos-pag {
+    padding: 75px 15px;
+    background-color: #efefef;
+}
+
+.cards {
+    flex-wrap: wrap;
+}
+
+#planos-pag>h2,
+#planos-pag>h3 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#planos-pag>h2 {
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+#planos-pag>h3 {
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.card-1 {
+    height: 700px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    max-width: 260px;
+    padding: 15px;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+.cabeçalho-card {
+    max-width: 400px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+.cabeçalho-card>p {
+    padding: 3px;
+    background-color: #2e77d0;
+    border-radius: 2px;
+}
+
+.cabeçalho-card>h4 {
+    border-width: 1px;
+    border-style: solid;
+    color: #2e77d0;
+    padding: 3px;
+    border-radius: 2px;
+    margin: 10px 0px 10px;
+}
+
+.sujeito-card-1>h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.sujeito-card-1>p {
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+.sujeito-card-1>.conta {
+    margin-bottom: 20px;
+}
+
+
+/* linha hr  */
+
+hr {
+    background-color: black;
+    padding: 0.7px;
+    margin-bottom: 20px;
+}
+
+.ofertas>li {
+    font-size: 0.9rem;
+    list-style-position: inside;
+    margin: 10px 0px;
+}
+
+.botao {
+    margin-top: 90%;
+    background-color: black;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 15px;
+}
+
+.botao1 {
+    margin-top: 95%;
+}
+
+.botao2 {
+    margin-top: 48%;
+}
+
+.botao3 {
+    margin-top: 82%;
+}
+
+.botao:hover {
+    opacity: 0.8;
+    transition: 400ms;
+}
+
+.botao>a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.termos>p {
+    font-size: 12px;
+}
+
+
+/* estilizar roda pé  */
+
+#logo>img {
+    margin: 10px 0px 0px 10px;
+    width: 100px;
+}
+
+#rodape_fundo {
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+#caixa {
+    padding: 100px 0px 100px;
+}
+
+.caixa1 {
+    width: 100%;
+}
+
+#links1,
+#links2,
+#links3 {
+    margin-left: 13%;
+}
+
+ul>li {
+    margin: 20px 0px;
+}
+
+.link_rodape {
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.sub-pe,
+.sub-pe1 {
+    color: #919496;
+}
+
+#icones {
+    margin-left: 5%;
+    display: flex;
+}
+
+#icones>img {
+    margin: 0px 15px;
+    background-color: #ffffffe0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+/* links finais */
+
+.sub-pe1 {
+    font-size: 10px;
+}
+
+.sub-pe1:hover {
+    color: #1ed760;
+}
+
+#rodape-final {
+    margin-top: 90px;
+}
+
+#links-esq {
+    display: flex;
+}
+
+#links-esq>li {
+    margin: 0px 20px;
+}
+
+#links-dir {
+    font-size: 14px;
+}
+
+#links-dir>h5 {
+    color: #919496;
+    font-size: 16px;
+    font-family: serif;
+    text-align: right;
+    margin-bottom: 5px;
+}
